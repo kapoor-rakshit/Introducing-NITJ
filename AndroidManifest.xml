@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rkapoors.listpractice">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="rkapoors.listpractice.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".courses" />
+        <activity android:name=".fy" />
+        <activity android:name=".ec" />
+        <activity android:name=".cs" />
+        <!--
+        <activity android:name=".ic"></activity>
+        <activity android:name=".ch"></activity>
+        -->
+        <activity android:name=".me" />
+        <!--
+        <activity android:name=".ce"></activity>
+        <activity android:name=".tt"></activity>
+        -->
+        <activity android:name=".bio" />
+        <activity android:name=".societies" />
+        <activity android:name=".lads" />
+        <activity android:name=".mads" />
+        <activity android:name=".rajbhasha" />
+        <activity android:name=".women" />
+        <activity android:name=".rti" />
+        <activity android:name=".contacts"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".gallery" />
+        <activity android:name=".ImageFragment"/>
+        <activity android:name=".prayaas"/>
+    </application>
+
+</manifest>
