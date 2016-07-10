@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Contacts"
+        android:id="@+id/search"
+        android:textSize="10pt"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="10dp">
+    </ListView>                                    <!--Attention !! way of declaring id here plays a key role -->
+
+</LinearLayout>

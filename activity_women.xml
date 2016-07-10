@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/headText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="1dip"
+        android:text="Women Cell was established in 2006 to ensure the dignity of women at work place.\n\nOBJECTIVES OF THE CELL\nTo facilitate a gender-sensitive and congenial working environment at NIT Jalandhar so that women employees and female students are not subjected to gender specific discrimination or sexual harassment.\nTo heighten awareness and sensitivity to this important issue amongst all concerned.\n\nContact Email ID: womencell@nitj.ac.in\n       OR\nDr Damanjit Kaur(Faculty Coordinator of Women Cell)\nAssociate Professor, Department of Mathematics\n\n                        Any Complaints:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="19sp"
+        android:textColor="#000"/>
+
+<ImageButton
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/mail"
+    android:layout_alignParentBottom="true"
+android:layout_centerInParent="true"
+    android:id="@+id/ib"/>
+
+</RelativeLayout>
